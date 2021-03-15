@@ -1,3 +1,5 @@
+library(ggplot2)
+
 intersc = function( va,vb){
   valA=va
   valB=vb
@@ -12,7 +14,7 @@ intersc = function( va,vb){
     if(abs(fpf1-valA) < 10^(-16)){
       break;
     }else{
-      cat ("Resultado:",fpf1, " iteración:",num,"\n")
+      cat ("Resultado:",fpf1, " iteraciÃ³n:",num,"\n")
       valA=fpf1
       num=num+1
     }
